@@ -21,6 +21,7 @@ public class AttendanceServiceImpl implements AttendanceService {
 		this.userRepo = userRepo;
 		this.attendanceRepo = attendanceRepo;
 	}
+	//dont push if u have commented code snippet.
 	
 //	@Override
 //	public void checkIn(String identifier) {

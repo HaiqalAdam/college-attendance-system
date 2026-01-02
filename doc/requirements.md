@@ -4,6 +4,14 @@
 - Each user can :
   - Check-in and check-out once per day
   - attendance is tied to date, not a session or subject
+  
+## Mobile
+- Android
+  - native (android studio (java))
+  - flutter
+- IOS
+  - native (xcode (swift))
+  - flutter
 
 ## User Flow (Web Based)
 - Check-in Flow
@@ -47,11 +55,11 @@
   - User identifies themselves via :
     - Student Id
     - Simple username
-  - No authentication
-  - No JSON Web Token
+  - No authentication //jwt
+  - No JSON Web Token //jwt
 - Version 2 (Planned)
-  - User authentication
-  - JWT-based security
+  - User authentication //2fa -mobile/email
+  - JWT-based security //kena buat awal
   - Role-based access control
   
 
